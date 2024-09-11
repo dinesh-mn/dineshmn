@@ -1,0 +1,62 @@
+baseURL : ""
+languageCode : 'en-us'
+title : 'Dinesh-mn.in'
+theme : "PaperMod"
+relativeURLs: true
+canonifyURLs: true
+
+
+params:
+  homeInfoParams:
+    Title : "Hello there 👋"
+    Content: |
+      👨‍🎓 I’m <mark> Dinesh</mark>, a 19-year-old college student.
+      
+      💻 I’m currently learning Python and Javascript, and I’m excited to dive deeper into these technologies.
+      
+      🏡 Living in the vibrant city of Chennai.
+    
+
+
+
+
+
+      This blog will be a space for sharing my journey with programming,
+      tech projects, and other interests. 
+
+      Feel free to explore and join me as I learn and grow!
+
+
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/dinesh-mn"
+      title: "GitHub"
+    - name: "twitter"
+      url: "https://twitter.com/yourusername"
+      title: "Twitter"
+    - name: "instagram"
+      url: "https://www.instagram.com/dinesh_mn.05/"
+    - name: "linkedin"
+      url: "https://linkedin.com/yourusername"
+
+
+
+menu :
+  main :
+    - identifier : Archives
+      name : Archive
+      url : /archives/
+      weight : 10
+    - identifier : Categories
+      name : Categories
+      url : /categories/
+      weight : 20
+    - identifier : Search
+      name : Search
+      url : /search/
+      weight : 30
+    - identifier : Tags
+      name : Tags
+      url : /tags/
+      weight : 40      
