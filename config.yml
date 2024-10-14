@@ -1,4 +1,4 @@
-baseURL : ""
+baseURL : "https://dinesh-mn.github.io/dineshmn/public/"
 languageCode : 'en-us'
 title : 'Dinesh-mn.in'
 theme : "PaperMod"
